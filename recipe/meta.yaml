@@ -1,13 +1,13 @@
 {% set name = "altair_tiles" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/altair_tiles-{{ version }}.tar.gz
-  sha256: 4e0c3d8233fc6697557171bfaef449fbc7eb10e36a730be48235007f60a5e62a
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/altair_tiles-{{ version }}.tar.gz
+  sha256: c262a00baad4f37966be9490fc014db0dd7c15c6e98c7cf3cfa5492abb867961
 
 build:
   noarch: python
